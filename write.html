@@ -1,0 +1,62 @@
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--link rel="stylesheet" href="css/main.css"-->
+        <title>MOMO</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="site_name">
+            MOMO
+        </h1>
+    </div>
+    <div class="wrap title">
+      <h1>맛집게시판</h1>
+      <p>음식 사진과 함께 가게이름 위치 맛평가 가격 등 올려주세용</p>
+      <hr>
+    </div>
+
+    <div class="wrap article">
+      <form class="write">
+            <input name="title" placeholder="글 제목" class="title">
+        <p>
+            <textarea name="text" placeholder="새글을 작성하시오." rows=20 cols=50></textarea>
+        <p>
+
+            <input class="file" type="file" name="file">
+
+
+      </form>
+
+    </div>
+    <div>
+      <table>
+          <thead>
+            <tr>
+              <th><input name="title" placeholder="글제목" class="title" rows=8></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td size=3>
+                <form class="write">
+                  <textarea name="text" placeholder="새글을 작성하시오." rows=7 cols=50></textarea>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot bolder=1px solid gray>
+              <tr>
+                <td><input title="첨부파일" class="attach" type="file"><p>
+                  <input title="익명" class="anonym" type="anonym" placeholder="익명">
+                  <input title="비밀번호" class="anonym" type="anonym" placeholder="비밀번호">
+                  <input title="완료" class="upload" type="button" value="완료">
+                </td>
+              <tr>
+          </tfoot>
+        </table>
+      </div>
+    </body>
+</html>
